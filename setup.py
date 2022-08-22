@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages, Extension
 
+# pyinstaller
+# 可参考https://github.com/pyinstaller/pyinstaller-hooks-contrib
+# 其实就是entrypoint，在哪里定义都行
 setup(
     name="chem_formula",
     version="0.1.0",
